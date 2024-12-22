@@ -53,5 +53,7 @@ let config = await Config.render({
 	],
 });
 
+
+NOTE: Create a folder called "lib" and move these files("index.ts, types.d.ts) inside "lib"
 console.log(config); // outputs the generated config as an ArrayBuffer
 ```
